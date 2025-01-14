@@ -1,0 +1,30 @@
+@font-face{
+   font-family: "Geometria";
+   src: url('fonts/Geometria-Regular.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+ }
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Geometria", sans-serif;
+   font-size: 20px;
+   color: red;
+   line-height: 1.2;
+   margin: 40px;
+}
+
+button {
+   padding: 5px 30px;
+   display: inline-block;
+}
+
+span {
+   display: block;
+}
